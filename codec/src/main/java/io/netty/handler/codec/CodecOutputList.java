@@ -54,7 +54,7 @@ final class CodecOutputList extends AbstractList<Object> implements RandomAccess
 
         private int currentIdx;
         private int count;
-
+        // TODO 
         CodecOutputLists(int numElements) {
             elements = new CodecOutputList[MathUtil.safeFindNextPositivePowerOfTwo(numElements)];
             for (int i = 0; i < elements.length; ++i) {
